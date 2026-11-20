@@ -107,6 +107,7 @@ export type Project = {
   description: string;
   concepts: string[];
   github?: string;
+  image: string;
   status: string;
 };
 
@@ -119,6 +120,7 @@ export const projects: Project[] = [
     purpose: "Algorithm Course",
     status: "Completed",
     github: "https://github.com/IfratulRian/Route-with-cpp",
+    image: "smart-route-planner.webp",
     description:
       "A console-based route planning application developed to explore graph algorithms and efficient path finding. It works with route information to determine suitable paths using algorithmic techniques.",
     concepts: ["Graph", "Searching", "Path finding", "Binary Search", "Algorithm design", "C++"],
@@ -131,6 +133,7 @@ export const projects: Project[] = [
     purpose: "Data Structures Course",
     status: "Completed",
     github: "https://github.com/sajidahammed/Blood-donation-by-c/tree/main",
+    image: "blood-bank.png",
     description:
       "A console-based blood donation management system developed in C to practice fundamental data structure concepts and organize donor-related information through programming logic.",
     concepts: ["Data Structures", "Data management", "Searching", "C programming", "Problem solving"],
@@ -142,9 +145,23 @@ export const projects: Project[] = [
     label: "Running Project",
     purpose: "Object-Oriented Programming",
     status: "In Development",
+    image: "hospital-management-system.webp",
     description:
       "A Java-based console application designed to represent basic hospital management operations while applying object-oriented programming principles.",
     concepts: ["Java", "OOP", "Classes", "Objects", "Encapsulation", "Object-oriented design"],
+  },
+  {
+    title: "Courier & Parcel Tracking Management System",
+    technology: "Java",
+    type: "Personal",
+    label: "Personal Project",
+    purpose: "Java Console Application",
+    status: "Completed",
+    github: "https://github.com/IfratulRian/Courier-Parcel-Tracking-Management-System",
+    image: "courier-parcel-tracking-management-system.jpg",
+    description:
+      "A beginner-friendly, console-based Java application for booking parcels, tracking status, managing branches and delivery agents, recording payments, and viewing basic reports. It uses core Java, object-oriented programming, and plain text files without a database or external libraries.",
+    concepts: ["Java", "OOP", "File handling", "Parcel tracking", "Console application", "Data reporting"],
   },
   {
     title: "Smart Calculator",
@@ -154,6 +171,7 @@ export const projects: Project[] = [
     purpose: "Personal Practice Project",
     status: "Completed",
     github: "https://github.com/IfratulRian/Calculator-by-normal-c",
+    image: "calculator.png",
     description:
       "A lightweight console-based calculator developed in C to implement arithmetic operations and strengthen fundamental programming and problem-solving skills.",
     concepts: ["C", "Functions", "Conditional logic", "Arithmetic operations", "Problem solving"],

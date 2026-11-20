@@ -277,6 +277,12 @@ export function Projects() {
                 </span>
                 <span className="project-tech">{project.technology}</span>
               </div>
+              <div className="project-preview">
+                <img
+                  alt={`${project.title} preview`}
+                  src={`${import.meta.env.BASE_URL}assets/projects/${project.image}`}
+                />
+              </div>
               <h3>{project.title}</h3>
               <p className="project-purpose">{project.purpose} · Console application</p>
               <p>{project.description}</p>
