@@ -85,7 +85,7 @@ export function Hero() {
             alt="Md Sajid Ahammed"
             className="portrait-photo"
             fetchPriority="high"
-            src={`${import.meta.env.BASE_URL}assets/sajid-profile.jpg`}
+            src={`${import.meta.env.BASE_URL}assets/main-image.jpeg?v=2`}
           />
         </div>
         <div className="floating-code-card">
