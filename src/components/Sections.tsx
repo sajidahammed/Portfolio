@@ -63,6 +63,9 @@ export function Hero() {
           <a className="button primary" href="#projects">
             View My Projects <Icon name="arrow" size={18} />
           </a>
+          <a className="button secondary" href="#contact">
+            Contact Me <Icon name="mail" size={18} />
+          </a>
         </div>
         <SocialLinks />
       </div>
