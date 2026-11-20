@@ -32,7 +32,6 @@ export function Navbar({ theme, onThemeToggle }: Props) {
     <header className="nav-wrap">
       <nav className="navbar" aria-label="Main navigation">
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
-          <span className="brand-mark">&lt;S/&gt;</span>
           <span>Sajid Ahammed</span>
         </a>
         <div className={`nav-links ${open ? "is-open" : ""}`}>

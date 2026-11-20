@@ -63,9 +63,6 @@ export function Hero() {
           <a className="button primary" href="#projects">
             View My Projects <Icon name="arrow" size={18} />
           </a>
-          <button className="button secondary" title="CV will be available soon" type="button">
-            <Icon name="download" size={18} /> Download CV
-          </button>
         </div>
         <SocialLinks />
       </div>
