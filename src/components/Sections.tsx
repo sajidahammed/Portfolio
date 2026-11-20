@@ -320,7 +320,6 @@ export function Competitions() {
         <div className="competition-list">
           {competitions.map((item) => (
             <article className="competition-card" data-reveal key={item.title}>
-              <span className="semester-number">{item.semester}</span>
               <div className="competition-icon"><Icon name={item.icon} /></div>
               <div>
                 <span>{item.period}</span>
