@@ -1,0 +1,11 @@
+{
+  "title": "Sajid Ahmed",
+  "description": "Showcases a professional portfolio for a CSE student aspiring to be a backend engineer, highlighting skills, projects, competitions, and career goals.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
